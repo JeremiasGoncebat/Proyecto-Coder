@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'AppCursado'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'TerceraPreEntrega.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Usuario/Desktop/Tps Python curso Coder house/Tercera Pre-entrega/TerceraPreEntrega/Plantillas"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
