@@ -1,0 +1,12 @@
+{% extends "Plantillas/padre.html" %}
+{% load static %}
+{% block contenidoQueCambia %}
+    <h3>Podes buscar un Articulo:</h3>
+    <form action="buscar/" method="GET">
+        <input type="text" name="nombre" id="nombre">
+        <input type="submit" value="Buscar">
+    </form>
+    {%if resultado%}
+        <p>{{resultado}}</p>
+    {% endif %}
+{% endblock %}
